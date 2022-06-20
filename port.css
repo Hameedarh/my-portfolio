@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.opener{
+    background-image: url(g14.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 20px;
+}
+#navbar{
+    display: flex;
+    /* position: sticky; */
+    justify-content: center;
+    background-color:white;
+    color:rgba(219, 153, 12, 0.808);
+    font-family: Trebuchet MS;
+}
+#navbar li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 20px;
+}
+#navbar a:link{
+    color: rgba(219, 153, 12, 0.808);
+    text-decoration: none;
+}
+/* to remove the line from a link use text-decoration(none) */
+#navbar a:visited{
+    color:rgba(219, 153, 12, 0.808);
+}
+#navbar a:hover{
+    color:brown
+}
+.first-page{
+    padding-top: 120px;
+    color: rgba(219, 153, 12, 0.808);
+    text-align: center;
+}
+.first-page h1{
+    font-family: Trebuchet MS;
+    font-size: 50px;
+}
+#f{
+    color: white;
+}
+#b{
+    color: white;
+}
+.first-page h3{
+    font-size: 20px;
+    font-family: Trebuchet MS;
+}
+.first-page hr{
+    width: 25%;
+}
+.first-page a:link{
+    text-decoration: none;
+    color: rgba(219, 153, 12, 0.808);
+}
+.first-page a:visited{
+    color:rgba(219, 153, 12, 0.808);
+}
+.first-page a:hover{
+    color:brown
+}
+/* .icon a:hover{
+    color: brown;
+} */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+/* .fa-facebook{
+    background: wh;
+    color: blue;
+}
+.fa-twitter{
+    background: black;
+    color: blue;
+}
+.fa-instagram{
+    background: black;
+    color: blue;
+} */
+#Scroll{
+    padding-top: 150px;
+    margin-bottom: 0;
+}
+#Scroll a{
+    text-decoration: none;
+    font-family: Trebuchet MS;
+}
+.About-sec{
+    display: flex;
+    background-size: 100%;
+    padding-bottom: 230px;
+    color: white;
+    background-color:black;
+}
+.About-sec h1{
+    margin-top: 10px;
+}
+.prof{
+    flex: 2;
+    margin-top: 20px;
+}
+.prof img{
+    border: 3px solid whitesmoke;
+    border-radius: 30%;
+}
+.ab{
+    flex: 6;
+    text-align: justify;
+    padding-left: 20px;
+    line-height: 40px;
+    padding-right: 70px;
+}
+.ab h1{
+    font-family: Trebuchet MS;
+    font-size: 30px;
+}
+.ab p{
+    font-family: Trebuchet MS;
+}
+.ab hr{
+    width: 100%;
+}
+.down{
+    background-color: rgba(219, 153, 12, 0.808);
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    color: black;
+    font-family: Trebuchet MS;
+    font-size: 25px;
+}
+.down:hover{
+    color:brown;
+}
+/* #b2top{
+    display: flex;  
+    align-items: flex-end;
+    margin-bottom: 0;  
+} */
+.Resume-sec{
+    padding-top: 0;
+    padding-bottom: 70px;
+    background-size: 100%;
+    background-color: rgb(247, 238, 238);
+    color: rgba(219, 153, 12, 0.808);
+    font-family: Trebuchet MS;
+    margin-bottom: 0;
+}
+.resume{
+    display: flex;
+}
+#career{
+    flex: 2;
+}
+#car{
+    flex:8;
+    text-align: justify;
+}
+.Resume-sec hr{
+    width: 70%;
+}
+.edu{
+    display: flex;
+}
+#tion{
+    flex: 2;
+    padding-right: 20px;
+}
+.cat{
+    flex:8;
+    text-align: justify;
+}
+.skills{
+    display: flex;
+}
+.skills h3{
+    flex: 2;
+}
+.skillsbar{
+    flex: 8;
+}
+.htmlbar{
+    background-color: rgb(63, 56, 56);
+    height: 50px;
+    width: 60%;
+}
+.htmlp{
+    background-color: black;
+    height: 49px;
+    width: 70%;
+}
+.cssp{
+    background-color: black;
+    height: 49px;
+    width: 70%;
+}
+.pythonp{
+    background-color: black;
+    height: 49px;
+    width: 10%;
+}
+.work-sec{
+    background-color: whitesmoke;
+    padding-bottom: 200px;
+}
+.work-sec h1{
+    margin-top: 0;
+    font-family: Trebuchet MS;
+    font-size: 40px;
+    text-align: center;
+}
+.works-image{
+    display: flexbox;
+    margin-left: 50px;
+}
+#worksim{
+    margin-right: 20px;
+}
+#worksimg{
+    margin-top: 0;
+}
+#need{
+    font-family: trebuchet MS;
+    color: rgba(219, 153, 12, 0.808);
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+#blue1{
+    text-decoration: none;
+    color: black;
+}
+#blue1:hover{
+    color: brown;
+}
+.mail{
+    text-decoration: none;
+    color: rgba(219, 153, 12, 0.808);
+}
+.mail:hover{
+    color: brown;
+}
+#blue{
+    text-decoration: none;
+    background-color: rgba(219, 153, 12, 0.808);
+    color: black;
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+    padding: 10px 20px;
+}
+#blue:hover{
+    color: brown;
+}
+.cm{
+    background-image: url(g12.jpg);
+    color: rgba(219, 153, 12, 0.808);
+    font-family: Trebuchet MS;
+    font-size: 20px;
+    background-size: 100%;
+    padding-bottom: 350px;
+}
+.he{
+    display: flex;
+    width: 80%;
+}
+#hello h1{
+    display: inline-block;
+    border-bottom: 3px solid rgba(219, 153, 12, 0.808);
+    /* margin-bottom: 30px;
+    padding-bottom: 30px; */
+}
+#hello{
+    margin-left: 40px;
+    flex: 8;
+}
+#h{
+    flex: 2;
+}
+.talk{
+    background-color: rgba(219, 153, 12, 0.808);
+    width: 20%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.talk:hover{
+    color: brown;
+}
+footer{
+    display: flex;
+    background-color: black;
+    color: rgba(219, 153, 12, 0.808);
+    font-family: Trebuchet MS;
+}
+#fot{
+    flex: 4;
+}
+.foot{
+    flex: 4;
+}
